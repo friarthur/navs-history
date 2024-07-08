@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Navios e Histórias</title>
+    <link rel="stylesheet" href="index.css"> <!-- Arquivo CSS para estilos -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"> <!-- Importar Fonte Poppins -->
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+
+                <ul class="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Serviços</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1 class="hero-title">Canal Navios e Histórias</h1>
+            <p class="hero-subtitle">Projeto idealizado pelo Professor e Engenheiro Luiz Carlos dos Santos Cordova
+                Júnior, dedicado ao resgate da memória naval e marítima brasileira.</p>
+            <p class="hero-text">Um dos grandes objetivos do canal é o resgate da história e de informações diretamente
+                junto a veteranos da Marinha do Brasil e da Marinha Mercante brasileira.</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre o Fundador</h2>
+            <p>O Professor Luiz Carlos dos Santos Cordova Júnior foi grumete e aprendiz de marinheiro na Escola de
+                Aprendizes Marinheiros de Santa Catarina - EAMSC na Turma PAPAII no ano de 1997. Serviu a bordo da F-49
+                Fragata Rademaker. Formado em engenharia civil pela Universidade do Vale do Itajaí - UNIVALI,
+                pós-graduado em engenharia de segurança do trabalho, engenharia de produção e engenharia de tráfego. Tem
+                mestrado em políticas públicas e atualmente é doutorando em Desenvolvimento Regional pela Fundação
+                Universitária Regional de Blumenau - FURB. Agraciado com a medalha "Amigo da Marinha" e membro da
+                Sociedade Amigos da Marinha - SOAMAR de Itajaí/SC. Modelista naval amador, é professor em cursos de
+                graduação e pós-graduação em engenharia civil e áreas de planejamento territorial.</p>
+        </div>
+    </section>
+    <button class="floating-btn" id="chatBtn" onclick="toggleChat()">Chat</button>
+
+<!-- Caixa de Chat -->
+<div class="chat-box" id="chatBox">
+    <button class="close-btn" onclick="toggleChat()">Fechar</button>
+    <div class="chat-container">
+        <div class="chat-msg">Olá, como posso te ajudar?</div>
+        <div class="chat-options">
+            <button class="chat-option" onclick="openLink('https://www.instagram.com/naviosehistorias/')">Instagram</button>
+            <button class="chat-option" onclick="openLink('https://www.facebook.com/people/Navios-Hist%C3%B3rias/pfbid02Grpt8GLfmpoSKSZAJ4Kwn58RPRZNNRDJahCm8MmaVfEXtcchPXhJcjiCinTpxYPLl/')">Facebook</button>
+            <button class="chat-option" onclick="openLink('https://www.youtube.com/naviosehistorias')">YouTube</button>
+            <button class="chat-option" onclick="openLink('https://api.whatsapp.com/message/FWLZ3VSQ5GLKL1?autoload=1&app_absent=0')">WhatsApp</button>
+        </div>
+    </div>
+</div>
+    
+    
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Seu Nome. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
